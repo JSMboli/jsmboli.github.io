@@ -65,3 +65,16 @@
 ## 6. Deployment
 
 The ZIP has its `index.html` at the root of the archive. Copy all contents into the publishing repository root and commit. The live GitHub repository has not been modified by this workflow.
+
+
+## 4. Additive November 2026 profile update
+
+- Source of truth: uploaded clone of `jsmboli.github.io` on 6 November 2026. Existing research, publications and past-engagement entries were preserved.
+- New cumulative supervision figures and reciprocal academic–industry mentoring: **user-supplied, not independently audited**.
+- EvaeXtra Skills: **user-confirmed production** at `https://skills.evaextra.com/` (public live endpoint not independently verified by the research crawler).
+- V.E.C.T.O.R.: **user-confirmed testing**. Project scope confirmed by a privately provided package, which is not redistributed.
+- PATH: **internal prototype**, not a live career-service or autonomous application system.
+- TradeDocComplianceBench: **synthetic research prototype**. No independent UK regulatory compliance certification is claimed.
+- November 4 skills bootcamp: public DAIM announcement corroborates programme; **88 registrations / 47 participants** are organiser-reported. Avoid conflating these with dashboard membership figures.
+- Content safety: site excludes internal source, datasets, screenshots, staff lists, environment files, test artefacts, database information and infrastructure documentation from all four provided project packages.
+- Existing historical project links originally pointed to non-existent `legacy/projects.html` in this clone; links now point to the retained earlier-work section on `projects.html`.
