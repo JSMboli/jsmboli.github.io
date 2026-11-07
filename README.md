@@ -60,3 +60,18 @@ A modern, multi-page, static personal research and professional website for depl
 - Do not publish private datasets, user details, internal teaching/student records, secrets, tokens or the repository's `.git/` directory.
 
 See `REVIEW_AND_SOURCES.md` for source checks and the audit of the original archive.
+
+
+## November 2026 additive update
+
+The November update **preserves existing site pages, research content and historical assets** and adds the following sections, without introducing a build framework:
+
+- Home: an additional impact band showing 8+ research students, 80+ MSc projects, 7+ industrial project supervisions and seven GTAs mentored; four high-level applied-AI project teasers.
+- Projects: a clearly labelled portfolio covering **EvaeXtra Skills (production)**, **V.E.C.T.O.R. (testing)**, **PATH (prototype)** and **TradeDocComplianceBench (research prototype)**; no private project repositories, internal screenshots, source code or datasets.
+- Teaching: expanded supervision and reciprocal academic–industry mentoring, plus the November 2026 skills bootcamp.
+- Updates / Engagement: the November 2026 bootcamp; event figures are organiser-reported (88 registrations and 47 participants).
+- Sources: a transparency note identifying which figures and project-stage descriptions are owner-supplied.
+
+**Privacy boundary:** Only the user-uploaded *website repository* is included in this deployment archive. The four separately supplied project packages are used solely to establish high-level editorial accuracy and are **not copied** into the website or its ZIP. **No backend source, private datasets, keys, internal logs or deployment configurations** are provided. The existing one-page academic profile PDF remains unchanged and may be refreshed separately if needed.
+
+**Deploy:** extract this ZIP into the root of `JSMboli/jsmboli.github.io`, retaining your other existing files. This archive intentionally excludes `.git`, `.DS_Store`, `__MACOSX` and OS metadata. Preview with `python3 -m http.server 8000` and verify mobile layouts before pushing. The live GitHub Pages site has not been modified by this work.
