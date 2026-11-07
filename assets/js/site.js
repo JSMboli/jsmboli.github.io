@@ -43,7 +43,7 @@
   });
   mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => closeMenu()));
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && mobileMenu && !mobileMenu.hidden) closeMenu(true); });
-  window.addEventListener('resize', () => { if (window.innerWidth > 1080) closeMenu(); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 1260) closeMenu(); });
   // Maintain a visible back-to-top control without costly scroll work.
   let ticking = false;
   window.addEventListener('scroll', () => {

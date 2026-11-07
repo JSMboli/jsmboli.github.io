@@ -22,6 +22,7 @@ A modern, multi-page, static personal research and professional website for depl
 | `publications.html` | Searchable / filterable publications and accurate status labels |
 | `projects.html` | Current collaborations and earlier projects |
 | `teaching.html` | Postgraduate modules, bootcamp and executive training |
+| `experience.html` | Extended chronological academic career and education timeline, adapted from the earlier personal website |
 | `talks.html` | Keynotes, industry talks and public engagement |
 | `awards.html` | SFHEA, FHEA and leadership |
 | `ResearchBlog.html` | Research news and announcements (preserved URL) |
@@ -75,3 +76,7 @@ The November update **preserves existing site pages, research content and histor
 **Privacy boundary:** Only the user-uploaded *website repository* is included in this deployment archive. The four separately supplied project packages are used solely to establish high-level editorial accuracy and are **not copied** into the website or its ZIP. **No backend source, private datasets, keys, internal logs or deployment configurations** are provided. The existing one-page academic profile PDF remains unchanged and may be refreshed separately if needed.
 
 **Deploy:** extract this ZIP into the root of `JSMboli/jsmboli.github.io`, retaining your other existing files. This archive intentionally excludes `.git`, `.DS_Store`, `__MACOSX` and OS metadata. Preview with `python3 -m http.server 8000` and verify mobile layouts before pushing. The live GitHub Pages site has not been modified by this work.
+
+## Additional page — 7 November 2026
+
+The archived `jsmboli_old.zip` index page contained detailed career and academic-qualification timelines. The new `experience.html` retains all nine distinct role/year entries and five qualifications/development entries, with clear edited British English and the 2026 Hull module updates already stated on the live website. All other pages remain as they were, apart from an Experience navigation link, a Teaching-page cross-link, and compatibility CSS/JS. See `CHANGELOG_2026-11-07.md`.

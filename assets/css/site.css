@@ -75,3 +75,38 @@ img{max-width:100%;height:auto;display:block}svg{width:22px;height:22px}h1,h2,h3
 @media(max-width:480px){.supervision-numbers{gap:8px}.supervision-numbers>div{padding:16px 14px}.supervision-numbers strong{font-size:2.1rem}.applied-content{padding:21px}.maturity-legend{gap:10px 14px}.portfolio-teaser{padding:16px;gap:12px}.teaser-mark{width:43px;height:43px;font-size:.95rem}.applied-visual{height:170px}.visual-rail{left:12%}.visual-main{left:calc(12% + 59px);width:65%}.mentorship-bridge{padding:24px}}
 @media(prefers-reduced-motion:reduce){.portfolio-teaser{transition:none}}
 @media print{.applied-card,.mentor-grid article,.supervision-numbers>div{break-inside:avoid}.applied-visual{display:none}.mentorship-bridge{background:#eee;color:#111}.mentorship-bridge p{color:#111}}
+
+/* 7 November 2026 — additive extended experience page (archived timeline, modern treatment). */
+.experience-jump{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.experience-jump a{display:inline-flex;align-items:center;min-height:42px;padding:9px 16px;background:color-mix(in srgb,var(--surface) 14%,transparent);border:1px solid color-mix(in srgb,var(--ink) 20%,transparent);border-radius:999px;font-size:.85rem;font-weight:700;color:var(--ink)}
+.experience-jump a:hover{background:var(--soft)}
+.page-banner .experience-jump a{color:#ecf7f4;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.3)}
+.page-banner .experience-jump a:hover{background:rgba(255,255,255,.19)}
+.experience-overview{padding-bottom:64px}
+.experience-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.experience-summary-grid>div{background:var(--surface);border:1px solid var(--border);border-radius:17px;padding:24px 25px;min-width:0}
+.experience-summary-grid strong{display:block;color:var(--ink);font-size:clamp(1.3rem,2.5vw,1.8rem);letter-spacing:-.04em}
+.experience-summary-grid span{display:block;color:var(--muted);font-size:.86rem;margin-top:6px;line-height:1.6}
+.career-timeline{max-width:1080px;margin:0 auto}
+.career-timeline .timeline-entry{grid-template-columns:150px 22px minmax(0,1fr);gap:20px;min-height:0}
+.career-timeline .timeline-date{font-weight:850;color:var(--accent);font-size:.92rem;padding-top:24px;line-height:1.45}
+.career-timeline .timeline-stroke span{margin-top:26px;background:var(--teal)}
+.career-timeline .timeline-body{padding:26px 29px 27px;background:var(--surface);border:1px solid var(--border);border-radius:19px;margin:0 0 24px;box-shadow:var(--shadow)}
+.career-timeline .timeline-body h3{font-size:clamp(1.25rem,2vw,1.75rem);margin:9px 0 7px;max-width:770px;line-height:1.28}
+.career-timeline .timeline-body p{max-width:800px;margin:14px 0 0;line-height:1.76}
+.career-organisation{font-size:.94rem;font-weight:750;color:var(--ink-2);margin-bottom:5px}
+.career-organisation a{text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:3px}
+.career-organisation a:hover{color:var(--accent)}
+.career-detail{padding-left:22px;margin:15px 0 0;color:var(--ink-2);font-size:.92rem;line-height:1.75}
+.career-detail li{padding-left:3px;margin-bottom:9px}
+.career-detail li::marker{color:var(--accent)}
+.career-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:19px}
+.career-tags span{font-size:.72rem;font-weight:750;padding:5px 10px;border-radius:999px;background:var(--soft);color:var(--accent)}
+.academic-timeline .timeline-body{box-shadow:none}
+.experience-crosslink{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding-bottom:22px;font-size:.92rem;color:var(--muted)}
+.experience-crosslink .text-link{white-space:normal}
+/* With ten navigation items, switch to the accessible mobile menu before links crowd. */
+@media(min-width:1081px) and (max-width:1260px){.desktop-nav{display:none}.menu-button{display:flex}}
+@media(max-width:780px){.experience-summary-grid{grid-template-columns:1fr}.career-timeline .timeline-entry{grid-template-columns:105px 18px minmax(0,1fr);gap:11px}.career-timeline .timeline-body{padding:21px 19px}.career-timeline .timeline-date{font-size:.78rem;padding-top:24px}}
+@media(max-width:530px){.career-timeline .timeline-entry{grid-template-columns:17px minmax(0,1fr);column-gap:13px}.career-timeline .timeline-date{grid-column:2;grid-row:1;padding:0 0 5px;font-size:.82rem}.career-timeline .timeline-stroke{grid-column:1;grid-row:1/span 2}.career-timeline .timeline-stroke span{margin-top:6px}.career-timeline .timeline-body{grid-column:2;grid-row:2;margin-bottom:18px;padding:21px 17px}.career-timeline .timeline-body h3{font-size:1.22rem}.career-detail{font-size:.88rem}.experience-jump a{font-size:.8rem}}
+@media print{.career-timeline .timeline-body{box-shadow:none;break-inside:avoid}.career-timeline .timeline-date{break-after:avoid}.experience-jump{display:none}}
